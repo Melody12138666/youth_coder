@@ -1,0 +1,35 @@
+# AIGC项目依赖库
+# 语音识别和处理
+SpeechRecognition==3.10.0
+# 在Windows上pyaudio安装通常需要wheel文件，可以先尝试直接安装，或使用pipwin
+# pipwin install pyaudio
+pyaudio==0.2.13
+pydub==0.25.1
+
+# Scratch项目生成
+scratchattach==0.8.0
+requests==2.31.0
+
+# 代码可视化
+manim==0.17.3
+numpy==1.26.0
+matplotlib==3.8.0
+pygments==2.16.1
+
+# Web界面
+streamlit==1.27.0
+streamlit-webrtc==0.47.0
+av==10.0.0
+
+# LLM接口
+transformers==4.34.0
+# 在某些环境下可能需要降低torch版本
+torch==2.0.1
+
+# API服务
+flask==2.0.1
+flask-cors==3.0.10
+
+# 工具库
+tqdm==4.66.1
+pillow==10.0.1 
